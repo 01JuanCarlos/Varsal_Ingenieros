@@ -1,0 +1,94 @@
+.box-seccion1{
+padding: 40px;
+margin-top: 60px;
+}
+
+.argument{
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8894A4; 
+    justify-content: center;
+}
+.box-argument{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.logo img{
+    width: 70%;
+}
+.seccion1{
+    display: flex;
+    align-items: center;
+}
+.content-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.box-seccion2{
+    margin-top: 60px;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+.seccion1{
+    display: flex;
+}
+.seccion2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.seccion2 h1{
+    color: #990E0E;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.seccion2 p{
+text-align: center;
+font-size: 16px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.row{
+    margin: 0px;
+}
+.valores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valor-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.valor-icon img{
+max-width: 75px;
+}
+
+
+@media (max-width:411px){
+  
+.argument{
+    text-align: center;
+}
+
+}

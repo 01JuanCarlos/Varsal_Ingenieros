@@ -30,11 +30,7 @@
     margin-bottom: 20px;
   }
   
-  p {
-    font-size: 14px;
-    color: #777777;
-    margin-bottom: 20px;
-  }
+ 
   
   .form-group {
     display: flex;
@@ -78,4 +74,36 @@
   .submit-btn:hover {
     background-color: #333333;
   }
+  
 
+  .btn_mas{
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: #990E0E solid 1px ;
+    background: white;
+    display: flex; 
+    margin-top: 80px;
+    width: 150px;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+.btn_mas p{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.btn_mas:hover{
+  background-color: #333333;
+  color: white;
+}
+.btn_icon{
+background: #990E0E;
+display: flex;
+justify-content: center;
+padding: 8px;
+}
