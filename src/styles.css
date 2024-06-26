@@ -1,1 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    min-width: 262px;
+    background: rgba(172, 170, 170, 0.082);
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.box{
+    background:url('/assets/backgrounds/fondo-main.png');
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    z-index: 0;
+    
+}
+.box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 34, 34, 0.363); /* Cambia el 0.5 para ajustar el nivel de oscurecimiento */
+    z-index: 1;
+}
+h1{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 60px;
+}
+span{
+    color: white;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    margin-top:100px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.596);
+    transition: 300ms all;
+}
+.arrow:hover{
+    background: #990E0E;
+    
+}
+.arrow img{
+    padding: 5px;
+}
+.master{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+.slider .cont{
+    display: flex;
+    align-items: center;
+}
+.btn_mas{
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: #990E0E solid 1px ;
+    background: white;
+    display: flex; 
+    margin-top: 80px;
+    width: 150px;
+    align-items: center;
+}
+.btn_mas p{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.btn_mas:hover{
+    background: #1E2126;
+    color: white;
+}
+.btn_icon{
+background: #990E0E;
+display: flex;
+justify-content: center;
+padding: 8px;
+}
+
+/*
+.flechas{
+    position: absolute;
+    z-index: 2;
+    display:flex;
+    justify-content: space-between;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}*/
+
+@media (max-width:411px){
+  
+
+}
+
+@media (max-width: 991px){
+    h1{
+        font-size: 30px
+    }
+    .arrow{
+        display: none;
+    }
+}

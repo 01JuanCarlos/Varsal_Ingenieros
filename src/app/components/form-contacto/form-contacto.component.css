@@ -1,0 +1,81 @@
+.box-master{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    background: url('/assets/backgrounds/Frame 82.png') no-repeat center center;
+}
+.sub-box{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0px;
+}
+
+.form-container {
+    background-color: #ffffffaf;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(26, 16, 16, 0.151);
+  }
+  
+  h1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 14px;
+    
+  }
+  
+  .form-group textarea {
+    width: 100%;
+    resize: none;
+    height: 300px;
+
+  }
+  
+  .submit-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .submit-btn span {
+    margin-left: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #333333;
+  }
+
