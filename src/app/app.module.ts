@@ -10,12 +10,15 @@ import { MainComponent } from './views/main/main.component';
 import { NosotrosComponent } from './views/nosotros/nosotros.component';
 import { ServiciosComponent } from './views/servicios/servicios.component';
 import { ProyectosComponent } from './views/proyectos/proyectos.component';
-import { ClientesComponent } from './views/clientes/clientes.component';
 import { ContactanosComponent } from './views/contactanos/contactanos.component';
 import { VideoComponent } from './components/video/video.component';
 import { FormContactoComponent } from './components/form-contacto/form-contacto.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { HeaderOtherComponent } from './components/header-other/header-other.component'
+import { HeaderOtherComponent } from './components/header-other/header-other.component';
+import { CardsServiciosComponent } from './components/cards-servicios/cards-servicios.component';
+import { MedioAmbienteComponent } from './views/servicios/medio-ambiente/medio-ambiente.component';
+import { SeguridadSaludComponent } from './views/servicios/seguridad-salud/seguridad-salud.component';
+import { SupervisionComponent } from './views/servicios/supervision/supervision.component'
 
 @NgModule({
   declarations: [
@@ -26,12 +29,15 @@ import { HeaderOtherComponent } from './components/header-other/header-other.com
     NosotrosComponent,
     ServiciosComponent,
     ProyectosComponent,
-    ClientesComponent,
     ContactanosComponent,
     VideoComponent,
     FormContactoComponent,
     FooterComponent,
-    HeaderOtherComponent
+    HeaderOtherComponent,
+    CardsServiciosComponent,
+    MedioAmbienteComponent,
+    SeguridadSaludComponent,
+    SupervisionComponent
   ],
   imports: [
     BrowserModule,
