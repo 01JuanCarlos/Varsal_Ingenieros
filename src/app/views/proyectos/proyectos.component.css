@@ -1,0 +1,27 @@
+.container{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.descrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.descrip h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    width: 200px;
+}
+ul li img{
+    width: 100%;
+}

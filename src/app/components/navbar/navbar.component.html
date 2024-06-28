@@ -27,16 +27,22 @@ justify-content: flex-end;
 </div>
 
 
-<div class="container col-12" style="    padding: 20px;">
-
-    <div class="second-menu">
+<div class="container col-12" style="padding: 20px;min-height: 98px;">
+   <div>
+    <div class="second-menu" style="">
   
-      <div class="row align-items-center">
+      <div class="row align-items-center" style="">
   
         <div class="col-xl-12 col-lg-12">
   
           <nav class="navbar navbar-expand-lg bg-body-tertiary" style="display: block;">
-            <div class="container-fluid revert">
+            <div class="container-fluid revert" style="    z-index: 3;
+            position: absolute;
+            left: 50%;
+            width: 100%;
+            transform: translateX(-50%);
+            background: white;    padding-inline: 30px;
+            border-radius: 3px;">
              <div class="col-lg-4 col-md-12" style="display: contents;">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,7 +51,7 @@ justify-content: flex-end;
                     <img class="logo" src="assets/icons/logo-icon.png" alt="">
                   </a>
              </div>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="collapse navbar-collapse" id="navbarNav" style="padding: 20px">
                 <ul class="navbar-nav">
                   <li class="" [routerLink]="['/']">Inicio</li>
                   <li class="" [routerLink]="['/nosotros']">Nosotros</li>
@@ -61,7 +67,6 @@ justify-content: flex-end;
   
       </div> <!-- Cierre de row align-items-center -->
   
-    </div> <!-- Cierre de second-menu -->
-  
-  </div> <!-- Cierre de container -->
-  
+    </div> 
+   </div>
+  </div> 
