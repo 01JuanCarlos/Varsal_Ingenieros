@@ -36,8 +36,12 @@ margin-top: 60px;
     display: flex;
     justify-content: center;
 }
-
-
+.subtitle{
+    color:#990E0E;
+}
+p{
+    text-align: justify;
+}
 
 .box-seccion2{
     margin-top: 60px;

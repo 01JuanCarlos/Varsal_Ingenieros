@@ -19,7 +19,8 @@ import { CardsServiciosComponent } from './components/cards-servicios/cards-serv
 import { MedioAmbienteComponent } from './views/servicios/medio-ambiente/medio-ambiente.component';
 import { SeguridadSaludComponent } from './views/servicios/seguridad-salud/seguridad-salud.component';
 import { SupervisionComponent } from './views/servicios/supervision/supervision.component';
-import { ServicioDetalleComponent } from './views/servicios/servicio-detalle/servicio-detalle.component'
+import { ServicioDetalleComponent } from './views/servicios/servicio-detalle/servicio-detalle.component';
+import { RedesFloatComponent } from './components/redes-float/redes-float.component'
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ServicioDetalleComponent } from './views/servicios/servicio-detalle/ser
     MedioAmbienteComponent,
     SeguridadSaludComponent,
     SupervisionComponent,
-    ServicioDetalleComponent
+    ServicioDetalleComponent,
+    RedesFloatComponent
   ],
   imports: [
     BrowserModule,

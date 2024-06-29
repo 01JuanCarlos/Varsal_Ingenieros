@@ -1,0 +1,46 @@
+.redes{
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    transform: translateY(-50%);
+    background: #ffffffa4;
+    border-radius: 5px;
+    top: 50%;
+    left: 0;
+}
+.redes img:hover{
+    animation: pulse 1s infinite;
+
+}
+.whatsapp{
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    border-radius: 100px;
+    overflow: hidden;
+    top: 88%;
+    right: 107px;
+    background: rgba(202, 195, 195, 0.521);
+    transform: 300ms;
+    animation: pulse 1.5s infinite;
+}
+.whatsapp img{
+    width: 90px; 
+}
+.whatsapp:hover{
+    animation: pulse 2.5s infinite;
+
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
