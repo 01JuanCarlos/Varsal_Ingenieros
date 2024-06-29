@@ -3,70 +3,19 @@
 
 <div class="box-master container">
     <h1>Servicios</h1>
-    <div class="box-cards row">
-       <div class="col-lg-3 cont-card">
-        <div class="card "  >
-            <img  src="assets/servicios/medio_ambiente/amb1.png" width="300" height="250" alt="">
+    <div class="box-cards row" >
+       <div class="col-lg-3 cont-card" *ngFor="let servicio of servicios">
+        <div class="card ">
+            <img  src="{{ servicio.img }}" width="300" height="250" alt="">
             <div class="card-body">
                 <div class="body">
-                    <h2 class="card-title">Sistema de Gestión de Medio Ambiente</h2>
-                    <span>Diseñamos e Implementamos el Sistema de gestión ambiental conforme a la ISO 14001:2015, ayudando a las organizaciones a gestionar sus impactos ambientales, cumplir con la normativa aplicable y avanzar hacia prácticas más sostenibles.</span>
+                    <h2 class="card-title">{{ servicio.title }}</h2>
+                    <span>{{ servicio.descrip }}</span>
                 </div>               
-                <a href="" class="btn btn-success">saber más</a> 
+                <a [routerLink]="['/servicio-detalle']" [queryParams]="{ title: servicio.title, descrip: servicio.descrip, img: servicio.img }" class="btn btn-success">Saber más</a>
             </div>
         </div>
        </div>
-       <div class="col-lg-3 cont-card" >
-        <div class="card "  >
-            <img src="assets/servicios/medio_ambiente/amb2.png" width="300" height="250" alt="">
-            <div class="card-body">
-               <div class="body">
-                <h2>Huella de Carbono</h2>
-                <span>Ayudamos a las organizaciones a medir, gestionar y reducir su impacto ambiental relacionado con las emisiones de gases de efecto invernadero (GEI). </span>
-               </div>
-                <a href="" class="btn btn-success">saber más</a>  
-            </div>
-        </div>
-       </div>
-        <div class="col-lg-3 cont-card" >
-            <div class="card "  >
-                <img src="assets/servicios/medio_ambiente/amb3.png" width="300" height="250" alt="">
-                <div class="card-body">
-                    <div class="body">
-                        <h2>Economía Circular</h2>
-                    <span>Diseñamos e Implementamos el Sistema de gestión ambiental conforme a la ISO 14001:2015, ayudando a las organizaciones a gestionar sus impactos ambientales, cumplir con la normativa aplicable y avanzar hacia prácticas más sostenibles.</span>
-                    </div>
-                    <a href="" class="btn btn-success">saber más</a>  
-                </div>
-            </div>
-        </div>
-       <div class="col-lg-3 cont-card">
-        <div class="card " >
-            <img src="assets/servicios/medio_ambiente/amb4.png" width="300" height="250" alt="">
-            <div class="card-body">
-            <div class="body">
-                <h2>Residuos Sólidos</h2>
-                <span>Ayudamos a las empresas, gobiernos y organizaciones a mejorar sus prácticas de manejo de residuos, promover la sostenibilidad y cumplir con la normativa ambiental vigente.</span>
-            </div>   
-            <a href="" class="btn btn-success">saber más</a>  
-            </div>
-        </div>
-       </div>
-        <div class="col-lg-3 cont-card" >
-            <div class="card "  > 
-                <img src="assets/servicios/medio_ambiente/amb5.png" width="300" height="250" alt="">
-                <div class="card-body">
-                   <div class="body">
-                        <h2>Instrumenteo de Gestión Ambiental</h2>
-                        <span>Diseñamos e Implementamos el Sistema de gestión ambiental conforme a la ISO 14001:2015, ayudando a las organizaciones a gestionar sus impactos ambientales, cumplir con la normativa aplicable y avanzar hacia prácticas más sostenibles.</span>
-                    </div>
-                    <a href="" class="btn btn-success">saber más</a>  
-                </div>
-            </div>
-        </div>
     </div>
 </div>
-
-
-
 <app-footer></app-footer>

@@ -9,6 +9,7 @@ import { ContactanosComponent } from './views/contactanos/contactanos.component'
 import { MedioAmbienteComponent } from './views/servicios/medio-ambiente/medio-ambiente.component';
 import { SeguridadSaludComponent } from './views/servicios/seguridad-salud/seguridad-salud.component';
 import { SupervisionComponent } from './views/servicios/supervision/supervision.component';
+import { ServicioDetalleComponent } from './views/servicios/servicio-detalle/servicio-detalle.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'medio-ambiente',component:MedioAmbienteComponent},
   {path:'seguridad-salud',component:SeguridadSaludComponent},
   {path:'supervision',component:SupervisionComponent},
+  {path:'servicio-detalle',component:ServicioDetalleComponent},
   {path:'clientes-proyectos',component:ProyectosComponent},
   {path:'contactanos',component:ContactanosComponent},
   {path:'**',component:MainComponent}

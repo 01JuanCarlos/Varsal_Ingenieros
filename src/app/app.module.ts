@@ -18,7 +18,8 @@ import { HeaderOtherComponent } from './components/header-other/header-other.com
 import { CardsServiciosComponent } from './components/cards-servicios/cards-servicios.component';
 import { MedioAmbienteComponent } from './views/servicios/medio-ambiente/medio-ambiente.component';
 import { SeguridadSaludComponent } from './views/servicios/seguridad-salud/seguridad-salud.component';
-import { SupervisionComponent } from './views/servicios/supervision/supervision.component'
+import { SupervisionComponent } from './views/servicios/supervision/supervision.component';
+import { ServicioDetalleComponent } from './views/servicios/servicio-detalle/servicio-detalle.component'
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { SupervisionComponent } from './views/servicios/supervision/supervision.
     CardsServiciosComponent,
     MedioAmbienteComponent,
     SeguridadSaludComponent,
-    SupervisionComponent
+    SupervisionComponent,
+    ServicioDetalleComponent
   ],
   imports: [
     BrowserModule,
