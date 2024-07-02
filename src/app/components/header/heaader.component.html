@@ -1,28 +1,77 @@
-<div class="box">
-<app-navbar></app-navbar>
+<div class="box-body">
+   <img class="fondo "  alt="">
 
-<section class="slider">
+   <!-- 
+     <div id="carouselExampleCaptions" class="carousel slide fondo" style="position: absolute;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="height: 100%;">
+            <img src="/assets/backgrounds/fondo-main.png" class="d-block w-100 fondo" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="title-c">Medio Ambiente, Cambio Climático y Sostenibilidad</h5>
+                <p class="descrip-c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo dolore autem recusandae itaque voluptate nam consectetur quis totam officia accusamus neque incidunt similique obcaecati quidem, ipsa alias natus sequi!        
+            </div>
+          </div>
+          <div class="carousel-item" style="height: 100%;">
+            <img src="/assets/backgrounds/slier2.png" class="d-block w-100 fondo" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="title-c">Medio Ambiente, Cambio Climático y Sostenibilidad</h5>
+                <p class="descrip-c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo dolore autem recusandae itaque voluptate nam consectetur quis totam officia accusamus neque incidunt similique obcaecati quidem, ipsa alias natus sequi!
+               </div>
+          </div>
+          <div class="carousel-item" style="height: 100%;">
+            <img src="/assets/backgrounds/slider3.png" class="d-block w-100 fondo" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="title-c">Medio Ambiente, Cambio Climático y Sostenibilidad</h5>
+                <p class="descrip-c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo dolore autem recusandae itaque voluptate nam consectetur quis totam officia accusamus neque incidunt similique obcaecati quidem, ipsa alias natus sequi!
+            
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      ---> 
+<app-navbar></app-navbar>
+ 
+ <section class="slider">
     <div class="col-lg-12 cont" >
         <div class="col-lg-1">
-            <div class="arrow">
+            <div class="arrow arr1" >
                 <img src="assets/icons/arrow-left.png" alt="" width="35" height="40">
             </div>
         </div>
-        <div class="container" style="padding: 20px;">
+
+        <div class="container box-container">
             <div class="col-lg-8 col-md-8 ">
-                <h1>Medio Ambiente, Cambio Climático y Sostenibilidad</h1>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo dolore autem recusandae itaque voluptate nam consectetur quis totam officia accusamus neque incidunt similique obcaecati quidem, ipsa alias natus sequi!
-                </span>
+               <div style="min-height:363px;">  
+                    <div style="overflow: hidden;" class="">
+                        <h1 class="title-c">Medio Ambiente, Cambio Climático y Sostenibilidad</h1>
+                    </div>
+                    <span class="descrip-c ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo dolore autem recusandae itaque voluptate nam consectetur quis totam officia accusamus neque incidunt similique obcaecati quidem, ipsa alias natus sequi!
+                    </span>
+               </div>
                 <div class="btn_mas">
                     <div class="btn_icon"><img src="assets/icons/icons8-right-arrow-50.png" alt="" width="28" height="35"></div>
                  <div style="width: 105px;">  
-                     <p>SABER MÁS</p>
+                    <p class="btn_info" [routerLink]="dynamicRoute">SABER MÁS</p>
                 </div>
                 </div>
             </div>
         </div>
-        <div style="display: flex;justify-content: flex-end;">
-            <div class="arrow">
+
+        <div class="col-lg-1" style="display: flex;justify-content: flex-end;">
+            <div class="arrow arr2" >
                 <img src="assets/icons/icons8-right-arrow-50.png" alt="" width="35" height="40">
             </div>
         </div>

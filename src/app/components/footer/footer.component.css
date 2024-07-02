@@ -8,6 +8,7 @@
     justify-content: center;
 }
 .box-1,.box-2,.box-3{
+    cursor: pointer;
     display:flex;
     align-items: center;
     justify-content: center;

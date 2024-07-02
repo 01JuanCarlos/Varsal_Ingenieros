@@ -1,4 +1,8 @@
 body{
     min-width: 375px;
     background: rgba(172, 170, 170, 0.082);
+
+}
+main{
+    overflow: hidden;
 }
