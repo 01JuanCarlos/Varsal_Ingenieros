@@ -205,7 +205,6 @@ input:checked + label .description {
     background-size: cover;
     cursor: pointer;
     overflow: hidden;
-    border-radius: 2rem;
     display: flex;
     align-items: flex-end;
     transition: .6s cubic-bezier(.28,-0.03,0,.99);
@@ -223,7 +222,6 @@ input:checked + label .description {
     background-size: cover;
     cursor: pointer;
     overflow: hidden;
-    border-radius: 2rem;
     display: flex;
     align-items: flex-end;
     transition: .6s cubic-bezier(.28,-0.03,0,.99);
