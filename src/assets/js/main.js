@@ -23,6 +23,36 @@ $(document).ready(function() {
 
     }
 
+/*
+        let serv1=$('.serv-1');
+        let serv2=$('.serv-2');
+        let serv3=$('.serv-3');
+        let serv=$(".serv");
+        let rotar=$('.rotar')
+        
+   tarjer();
+
+     
+    function tarjer() {
+        // Verificar si el ancho no es '36%' y establecerlo si no lo es
+       
+
+        serv.mouseenter(function() {
+            $(this).css('width', '36%');
+            rotar.css('transform', 'rotate(0)');
+            if (serv2.css('width') !== '36%' && serv3.css('width') !== '36%') {
+                serv1.css('width', '36%');
+            }
+        }).mouseleave(function() {
+            $(this).css('width', '25%');
+            rotar.css('transform', 'rotate(-90deg)');
+            if (serv2.css('width') !== '36%' && serv3.css('width') !== '36%') {
+                serv1.css('width', '36%');
+            }
+        });
+    }
+
+*/
 
     // Validar tamaño de pantalla al cargar y redimensionar
  /*   window.addEventListener('resize', () => {
@@ -115,20 +145,5 @@ $(document).ready(function() {
 */
 
 
-
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
 
 })

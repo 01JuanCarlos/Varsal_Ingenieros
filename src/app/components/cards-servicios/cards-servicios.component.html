@@ -9,9 +9,49 @@
           </a>
         </div>
         <div class="col-lg-8 col-md-12 box-serv row">
-            <div class="serv-1 serv col-md-12" [routerLink]="['/medio-ambiente']"><h3 class="">Medio Ambiente, Cambio Climático y Sostenibilidad </h3></div>
-            <div class="serv-2 serv col-md-12" [routerLink]="['/seguridad-salud']"><h3 class="rotar">Seguridad y Salud</h3></div>
-            <div class="serv-3 serv col-md-12" [routerLink]="['/supervision']"><h3 class="rotar">Supervisión de Proyectos</h3></div>
+      <!--       <div class="serv-1 serv col-md-12" [routerLink]="['/medio-ambiente']"><h3 class="rotar1">Medio Ambiente, Cambio Climático y Sostenibilidad </h3></div>
+            <div class="serv-2 serv col-md-12" [routerLink]="['/seguridad-salud']"><h3 class="rotar2">Seguridad y Salud</h3></div>
+            <div class="serv-3 serv col-md-12" [routerLink]="['/supervision']"><h3 class="rotar3">Supervisión de Proyectos</h3></div>
+    -->
+    <input class="input" type="radio" name="slide" id="c1" checked>
+  
+     <label class="carta-box" id="box1">
+        <label for="c1" class="carta ">
+            <div class="row col-12">
+                <div class="description col-12" >
+                    <h4>Medio Ambiente, Cambio Climático y Sostenibilidad </h4>
+                    <button [routerLink]="['/medio-ambiente']" class="btn btn-light col-lg-4 ">Ir</button>
+                </div>
+            </div>
+
+        </label>
+       
+    </label>
+    
+    <input  class="input" type="radio" name="slide" id="c2" >
+    <label class="carta-box" id="box2">
+        <label for="c2" class="carta opacity">
+            <div class="row col-12">
+                <div class="description col-12">
+                    <h4>Seguridad y Salud</h4>
+                    <button [routerLink]="['/seguridad-salud']" class="btn btn-light col-lg-4 ">Ir</button>
+                </div>
+            </div>
+        </label>
+    </label>
+
+    <input class="input" type="radio" name="slide" id="c3" >
+    <label class="carta-box" id="box3">
+        <label for="c3" class="carta opacity">
+            <div class="row col-12">
+                <div class="description col-12">
+                    <h4>Supervisión de Proyectos</h4>
+                    <button [routerLink]="['/supervision']" class="btn btn-light col-lg-4 ">Ir</button>
+                </div>
+            </div>
+        </label>
+    </label>
+  
         </div>
     </div>
 </div>
